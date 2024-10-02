@@ -25,7 +25,6 @@ This portfolio is a compilation of the work I've done so far, showcasing project
 - **Interactive Animations**: Subtle animations to enhance the user experience.
 - **Contact Form**: Integrated contact form using EmailJS to receive messages.
 - **Social Media Links**: Easy access to my GitHub, LinkedIn, and other social media profiles.
-- **Downloadable Resume**: Includes a downloadable resume in PDF format.
 
 ## 🛠️ Technologies Used
 
