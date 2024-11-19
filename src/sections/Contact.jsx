@@ -15,11 +15,10 @@ const Contact = () => {
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -28,7 +27,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'JavaScript Mastery',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'bhawanak768@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -41,28 +40,23 @@ const Contact = () => {
             text: 'Thank you for your message 😃',
             type: 'success',
           });
-
+  
           setTimeout(() => {
             hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
+            setForm({ name: '', email: '', message: '' });
+          }, 3000);
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
+          console.error('Failed to send email:', error);
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: "I didn't receive your message 😢. Please try again later.",
             type: 'danger',
           });
         },
       );
-  };
+  };  
 
   return (
     <section className="c-space my-20" id="contact">
@@ -72,10 +66,9 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+          <h3 className="head-text"> Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+          Passionate about turning ideas into impactful digital experiences. Whether it's crafting a new website or refining an existing one, let's collaborate and bring your vision to life.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
@@ -88,7 +81,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="Enter your Name"
               />
             </label>
 
@@ -101,7 +94,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="Enter your Email"
               />
             </label>
 

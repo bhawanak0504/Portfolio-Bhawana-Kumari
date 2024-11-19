@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' bhawanak768@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Bhawana Kumari</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              I’m a curious explorer in the world of Computer Science, currently pursuing my B.Tech. With a blend of creativity and logic, I’m driven to solve complex problems and push the boundaries of what technology can do. 
+              My journey is fueled by a passion to turn ideas into impactful solutions, and I’m excited about shaping the future with innovative tech.
               </p>
             </div>
           </div>
@@ -39,8 +39,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I thrive at the intersection of creativity and technology, wielding programming languages like Python, C++, and Java to bring innovative ideas to life. 
+              With a robust foundation in databases, data structures, and algorithms, I’m equipped to tackle complex challenges. My passion for understanding computer systems and networks fuels my ability to create seamless, scalable applications that make a difference.
               </p>
             </div>
           </div>
@@ -62,10 +62,16 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
-            </div>
+  <p className="grid-headtext">Eager for New Opportunities</p>
+  <p className="grid-subtext">
+    As a B.Tech student in Computer Science, I thrive on the flexibility of working across various time zones and locations. 
+    I’m enthusiastic about discovering opportunities that resonate with my skills and passions, whether they are remote or on-site. 
+    Let’s join forces and innovate impactful solutions together!
+  </p>
+  <Button name="Let's Connect" isBeam containerClass="w-full mt-10" />
+</div>
+
+
           </div>
         </div>
 
@@ -74,12 +80,13 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
-              </p>
-            </div>
+  <p className="grid-headtext">Fuelled by My Passion for Coding</p>
+  <p className="grid-subtext">
+    For me, coding transcends mere skill—it’s a vibrant passion that drives my creativity. I revel in the challenge of solving intricate problems and transforming ideas into innovative solutions. 
+    Always eager to explore emerging technologies, I continuously seek opportunities to expand my skill set and elevate my craft.
+  </p>
+</div>
+
           </div>
         </div>
 
@@ -95,7 +102,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">bhawanak768@gmail.com</p>
               </div>
             </div>
           </div>
