@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## 🌐 Live Demo
 
-You can view the live version of my portfolio here: [Portfolio Live Link](http://localhost:5173/)
+You can view the live version of my portfolio here: [Portfolio Live Link](https://bhawanak0504.github.io/Portfolio-Bhawana-Kumari/)
 
 ## 📜 Table of Contents
 
