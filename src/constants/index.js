@@ -198,43 +198,6 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Apple Leaf Health Detection App',
-    desc: 'The Apple Leaf Health Detection App is an innovative tool designed to detect and diagnose health issues in apple leaves. Using advanced machine learning algorithms, the app helps users identify diseases early, ensuring timely interventions and improved crop health.',
-    subdesc:
-      'With an intuitive interface and accurate analysis, the app empowers farmers and agriculturalists to monitor their apple crops effectively. It offers actionable insights and disease prevention tips, contributing to healthier yields and sustainable farming practices.',
-    href: 'https://github.com/bhawanak0504/Apple-Leafs-Health-Detection',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        "id": 1,
-        "name": "Python",
-        "path": "/assets/py.jpeg"
-      },
-      {
-        "id": 2,
-        "name": "TensorFlow",
-        "path": "/assets/tensorflow.png"
-      },
-      {
-        "id": 3,
-        "name": "OpenCV",
-        "path": "/assets/opencv.png"
-      },
-      {
-        "id": 6,
-        "name": "Kaggle",
-        "path": "/assets/kaggle.png"
-      },
-    ],
-  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

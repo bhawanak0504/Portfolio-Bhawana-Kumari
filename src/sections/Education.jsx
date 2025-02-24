@@ -5,8 +5,8 @@ const Resume = () => {
   const [hover, setHover] = useState(false);
 
   const handleDownload = () => {
-    const resumePath = 'public/MY Resume.pdf'; // Path to the resume file in your public folder
-    saveAs(resumePath, 'Bhawana_Kumari_Resume.pdf'); // Name of the file after download
+    const resumePath = 'public/MyResume.pdf'; // Path to the resume file in your public folder
+    saveAs(resumePath, 'MyResume.pdf'); // Name of the file after download
   };
 
   const styles = {
@@ -48,7 +48,7 @@ const Resume = () => {
     },
     btn: {
       display: 'block', // Display as a block to center the button
-      backgroundColor: '#28a745', // Green background for the button
+      backgroundColor: '#cc0066', // Green background for the button
       color: '#ffffff',
       padding: '12px 25px',
       fontSize: '1.1rem',
