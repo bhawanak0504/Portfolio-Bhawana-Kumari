@@ -6,7 +6,7 @@ const Resume = () => {
 
   const handleDownload = () => {
     const resumePath = 'public/MyResume.pdf'; // Path to the resume file in your public folder
-    saveAs(resumePath, 'MyResume.pdf'); // Name of the file after download
+    saveAs(resumePath, 'Bhawana_Kumari_resume.pdf'); // Name of the file after download
   };
 
   const styles = {
