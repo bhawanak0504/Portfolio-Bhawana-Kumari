@@ -14,6 +14,9 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/bhawana-kumari-aa849a27a" target="_blank" rel="noopener noreferrer" className="social-icon">
           <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
         </a>
+        <a href="https://www.instagram.com/bhawana.kumari17/" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+        </a>
       </div>
 
       <p className="text-white-500">© 2024 Bhawana Kumari. All rights reserved.</p>

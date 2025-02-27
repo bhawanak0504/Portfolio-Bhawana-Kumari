@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 
 const skillsData = [
-  { skill: 'Python' },
+  { skill: 'Basic-Python' },
   { skill: 'C++' },
   { skill: 'JavaScript' },
-  { skill: 'React' },
   { skill: 'AWS' },
-  { skill: 'Google Cloud Platform' },
-  { skill: 'HTML/CSS' },
+  { skill: 'Mern-Stack' },
   { skill: 'SQL' },
+  { skill: 'MySQL'},
   { skill: 'Git/Github' },
   { skill: 'Linux' },
-  { skill: 'Postman for API Testing'},
+  { skill: 'DevOps'},
 ];
 
 // Define your styles as a JavaScript object
